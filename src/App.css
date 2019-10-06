@@ -1,22 +1,65 @@
+:root {
+  /* COLOR */
+  --light-color: rgb(108, 255, 206);
+  --dark-color: rgb(40, 44, 52);
+  --dark-color-9: rgba(40, 44, 52, .9);
+  --dark-color-8: rgba(40, 44, 52, .8);
+  --dark-color-7: rgba(40, 44, 52, .7);
+
+  /* SHAPE */
+  --rounded-border: 6px;
+
+  /* SPACE */
+  --space-1: 5px;
+  --space-2: 10px;
+  --space-3: 20px;
+  --space-4: 25px;
+  --space-5: 30px;
+  --space-6: 40px;
+  --space-7: 50px;
+  --space-8: 60px;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  background-color: var(--dark-color);
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--light-color);
+  padding: var(--space-4);
 }
 
-.App-link {
-  color: #09d3ac;
+h2 {
+  margin: var(--space-6);
+}
+
+body {
+  height: calc(100vh - 200px);
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+.card-container {
+  min-height: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 250px;
+  height: 400px;
+  background-color: var(--dark-color-9);
+  border-radius: var(--rounded-border);
+  padding: var(--space-2);
+}
+
+.card h3 {
+  color: var(--light-color);
 }
