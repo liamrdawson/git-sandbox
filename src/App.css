@@ -63,3 +63,9 @@ body {
 .card h3 {
   color: var(--light-color);
 }
+
+ul {
+  color: var(--light-color);
+  list-style: none;
+  padding: 0;
+}
