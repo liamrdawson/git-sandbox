@@ -49,13 +49,14 @@ body {
 .card-container {
   min-height: 500px;
   width: 80%;
+  overflow-x: scroll;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
 }
 
 .card {
-  width: 250px;
+  min-width: 250px;
   height: 400px;
   margin: 0 var(--space-2);
   background-color: var(--dark-color-9);

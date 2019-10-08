@@ -12,8 +12,28 @@ class Main extends Component {
             {
                 name: "Managing History",
                 topicsCovered: []
-
-            }
+            },
+            {
+                name: "Undoing",
+                topicsCovered: []
+            },            {
+                name: "Crafting History with Rebase",
+                topicsCovered: []
+            },            {
+                name: "Git Object Model",
+                topicsCovered: []
+            },            {
+                name: "Customizing Git",
+                topicsCovered: []
+            },
+            {
+                name: "Remote Repositories",
+                topicsCovered: []
+            },
+            {
+                name: "Vim and Git",
+                topicsCovered: []
+            },
         ]
     }
 
