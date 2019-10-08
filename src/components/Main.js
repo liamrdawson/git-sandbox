@@ -7,7 +7,7 @@ class Main extends Component {
         cards: [
             {
                 name: "Starting Git",
-                topicsCovered: ["First commit", "Staging changed files"]
+                topicsCovered: ["First commit", "Staging changed files", "git stash", "Create new branch"]
             }
         ]
     }
