@@ -12,6 +12,7 @@ class Main extends Component {
             {
                 name: "Managing History",
                 topicsCovered: []
+
             }
         ]
     }
