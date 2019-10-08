@@ -8,6 +8,10 @@ class Main extends Component {
             {
                 name: "Starting Git",
                 topicsCovered: ["First commit", "Staging changed files"]
+            },
+            {
+                name: "Managing History",
+                topicsCovered: []
             }
         ]
     }
