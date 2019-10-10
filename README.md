@@ -1,32 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **Git Handbook**
 
-# Git Sandbox
+Git is a fantastic tool but can sometimes be tough to work with. To help myself and others build on their confidence when using Git, and increase the awareness of tools that devs have available to work with I'm putting together this handbook. 
 
-This is a sandbox environment where I will be exploring different Git techniques ranging from brushing over simple Git tasks to diving into more advanced use cases of Git.
+This will hopefully demystify a lot of what Git is capable of and provide readers with a more solid foundation.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Chapters**
+1. #### Get confident with the command line
+2. #### Starting Git
+3. #### Managing History
+4. #### Undoing
+5. #### Rewriting History
+6. #### The Git Object Model
+7. #### Customize Git
+8. #### Remote Repositories
+9. #### Vim and Git
