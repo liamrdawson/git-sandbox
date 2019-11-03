@@ -7,7 +7,7 @@ Git is a powerful tool that allows you to travers the timeline of your projects 
 ![Alt Text](https://media.giphy.com/media/7h1kSwC7s7gaI/giphy.gif)
 
 ## **Chapters**
-1. #### [I'm a relative reference to a repository file](./chapters/get-confident.md)
+1. #### [Get Confident with the Command Line](./chapters/get-confident.md)
 2. #### Starting Git
 3. #### Managing History
 4. #### Undoing
