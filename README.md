@@ -13,4 +13,3 @@ This will hopefully demystify a lot of what Git is capable of and provide reader
 6. #### The Git Object Model
 7. #### Customize Git
 8. #### Remote Repositories
-9. #### Vim and Git
