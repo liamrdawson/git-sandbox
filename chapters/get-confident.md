@@ -51,6 +51,6 @@ This is a log of all of the references made in the history of your repo. Git tra
 
 ![](../assets/screenshots/reflog.png)
 
-If you want to see only updates made on a specific branch, then ust run `git reflog [branch-name-here]` e.g.
+If you want to see only updates made on a specific branch, then just run `git reflog [branch-name-here]` e.g.
 
 ![](../assets/screenshots/reflog-dev.png)
