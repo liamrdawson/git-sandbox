@@ -23,13 +23,41 @@ Adding `--decorate` will overlay information about the branches to the git histo
 This will show you essentially your complete history. You can see all branches that may have diverged off and if they not have or haven't merged back to your current branch.
  
 ### **"But that's too much to type..."**
-Luckily, you don't need to type all of that when you want to see that view of your history. You can create an alias for this by running `git config --global alias.[alias name]` before your command in quotations to create an alias, such as below.
+Luckily, you don't need to type all of that when you want to see that view of your history. You can create an alias for this by running `git config --global alias.[alias name]` before your command in quotations to create an alias, such as below. For example:
 
-![](../assets/screenshots/alias.png)
+```
+git config --global alias.sla --oneline --decorate --graph --all
+```
 
-So now if I run my alias (I've chosen sla for 'short log all', but you can make this anything you want) then I run the whole command I've saved. 
+So now if I run my alias `git sla` (I've chosen sla for 'short log all', but you can make this anything you want) then I run the whole command I've saved. 
 
-## Choose what your log shows you
+## **Customise your log format**
+If you start working on larger projects then you might want to adjust your log to give you a little extra information on the project. Git allows us to costomize our log output to give us that extra detail. 
+
+Suppose we wanted out git log to show us the date, author, commit hash and message in our output, we could customise our log with the following:
+
+```
+git log --pretty=format:'%h - %an [%ar] %s'
+```
+Here we're customising our git log using the following placeholders:
+|Placeholder|Value|
+|-----------|-----|
+|%h| Abbreviated commit hash|
+|%an| Author name|
+|%ar| Commit authored on relative date (e.g. 3 days ago)
+|%s| Commit subject (1st line of commit)
+
+This gives us the following output:
+
+![](../assets/screenshots/pretty-format.png)
+
+We can customize this even further by adding colors to specific parts of our log output. You can specify a colour for your output with `%C(<color-name>)` and use `%C(reset)` to reset the colour being used for the following output. The command below for example, will output a yellow commit hash and a green date:
+```
+git log --pretty=format:'%C(yellow)%h%C(reset) - %an [%C(green)%ar%C(reset)] %s'
+```
+Which gives us:
+
+![](../assets/screenshots/pretty-format-color.png)
 
 ## Search for a commit
 
