@@ -60,6 +60,8 @@ Which gives us:
 
 ![](../assets/screenshots/pretty-format-color.png)
 
+These are only examples. Git supports an impressive collection of placeholders and formatting options for customized logs. To see more of the available formatting specifiers, run `git help log` and search (using `/` in your pager) for the "PRETTY FORMATS" section, specifically the "format:<string>" section.
+
 ## Search for a commit
 
 ## Search for a change in code
