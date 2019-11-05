@@ -40,6 +40,7 @@ Suppose we wanted out git log to show us the date, author, commit hash and messa
 git log --pretty=format:'%h - %an [%ar] %s'
 ```
 Here we're customising our git log using the following placeholders:
+
 |Placeholder|Value|
 |-----------|-----|
 |%h| Abbreviated commit hash|
